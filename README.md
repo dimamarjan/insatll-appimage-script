@@ -11,7 +11,7 @@ The `install_appimage.sh` script is used to install AppImage applications on you
 
 2. Run the script with the AppImage file as an argument:
    ```bash
-   ./install_appimage.sh path/to/your/appimage path/to/your/icon
+   ./install_appimage.sh path/to/your/appimage path/to/your/icon app_name
    ```
 
 3. Follow the on-screen instructions to complete the installation.
@@ -52,7 +52,7 @@ To simplify the usage of this script, you can create an alias for it. An alias a
 ### Now you can use the script with the alias:
 
 ```bash
-installappimage /path/to/your/AppImage /path/to/your/icon.png
+installappimage /path/to/your/AppImage /path/to/your/icon.png app_name
 ```
 
 ### This makes it easier to run the script without needing to type the full path every time.
