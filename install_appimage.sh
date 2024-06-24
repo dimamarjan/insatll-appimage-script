@@ -47,3 +47,4 @@ echo "Desktop file created: $DESKTOP_FILE_PATH"
 
 update-desktop-database "$HOME/.local/share/applications"
 echo "Desktop database updated."
+
